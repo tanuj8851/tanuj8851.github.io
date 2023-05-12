@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav id="nav-menu">
+      <ul>
+        <li><a href="#home" class="nav-link home">Home</a></li>
+        <li><a href="#about" class="nav-link about">About</a></li>
+        <li><a href="#skills" class="nav-link skills">Skills</a></li>
+        <li><a href="#projects" class="nav-link projects">Projects</a></li>
+        <li><a href="#contact" class="nav-link contact">Contact</a></li>
+        <li><a href="resume.pdf" class="nav-link resume">Resume</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <section id="home">
+    <h1>Welcome to my portfolio!</h1>
+    <p>Here you can learn more about me and my work.</p>
+  </section>
+
+  <section id="about" class="about section">
+    <h2>About Me</h2>
+    <p>Insert your personal information and description about yourself here.</p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Skill 1</li>
+      <li>Skill 2</li>
+      <li>Skill 3</li>
+      <li>Skill 4</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>Project 1</h3>
+      <p>Description of project 1</p>
+      <a href="#">View Project</a>
+    </div>
+    <div class="project">
+      <h3>Project 2</h3>
+      <p>Description of project 2</p>
+      <a href="#">View Project</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name">
+      
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email">
+      
+      <label for="message">Message</label>
+      <textarea id="message" name="message"></textarea>
+      
+      <input type="submit" value="Send">
+    </form>
+  </section>
+
+</body>
+</html>
