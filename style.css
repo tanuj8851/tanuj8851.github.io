@@ -60,6 +60,14 @@ footer {
   justify-content: space-between;
 }
 
+.ressume-btn{
+ color: white;
+ background: transparent;
+ font-size: 20px;
+ padding: 7px ;
+ border-radius: 20%;
+}
+
 section .title {
   position: relative;
   text-align: center;
@@ -231,7 +239,22 @@ section .title::after {
   font-weight: 500;
 }
 
-.home .home-content a {
+.resume-btn{
+  background: #2253c8;
+  color: #fff;
+  font-size: 20px;
+  padding: 7px 10px;
+  border-radius: 15px;
+  outline: none;
+  border: none;
+}
+.resume-btn:hover{
+  background-color: transparent;
+  color: #2253c8;
+  cursor: pointer;
+}
+
+.home .home-content a  {
   display: inline-block;
   background: #2253c8;
   color: #fff;
@@ -1061,4 +1084,12 @@ footer span a:hover {
 
 .chakra {
   border-radius: 50%;
+}
+
+#user-detail-intro{
+font: optional;
+}
+
+.home-img{
+  font: 1em sans-serif;
 }
