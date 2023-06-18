@@ -60,12 +60,12 @@ footer {
   justify-content: space-between;
 }
 
-.ressume-btn{
- color: white;
- background: transparent;
- font-size: 20px;
- padding: 7px ;
- border-radius: 20%;
+.ressume-btn {
+  color: white;
+  background: transparent;
+  font-size: 20px;
+  padding: 7px;
+  border-radius: 20%;
 }
 
 section .title {
@@ -108,6 +108,14 @@ section .title::after {
   padding: 30px 0;
   font-family: "Ubuntu", sans-serif;
   transition: all 0.3s ease;
+}
+
+#nav-menu {
+  color: white;
+}
+
+.project-card {
+  border: 1px solid black;
 }
 
 .navbar.sticky {
@@ -239,7 +247,7 @@ section .title::after {
   font-weight: 500;
 }
 
-.resume-btn{
+.resume-btn {
   background: #2253c8;
   color: #fff;
   font-size: 20px;
@@ -248,13 +256,14 @@ section .title::after {
   outline: none;
   border: none;
 }
-.resume-btn:hover{
+
+.resume-btn:hover {
   background-color: transparent;
   color: #2253c8;
   cursor: pointer;
 }
 
-.home .home-content a  {
+.home .home-content a {
   display: inline-block;
   background: #2253c8;
   color: #fff;
@@ -1086,10 +1095,10 @@ footer span a:hover {
   border-radius: 50%;
 }
 
-#user-detail-intro{
-font: optional;
+#user-detail-intro {
+  font: optional;
 }
 
-.home-img{
+.home-img {
   font: 1em sans-serif;
 }
