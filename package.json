@@ -1,5 +1,5 @@
 {
-  "name": "mrunalibind.github.io",
+  "name": "tanuj8851.github.io",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,16 +8,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mrunalibind/mrunalibind.github.io.git"
+    "url": "git+https://github.com/tanuj8851/tanuj8851.github.io.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mrunalibind/mrunalibind.github.io/issues"
+    "url": "https://github.com/tanuj8851/tanuj8851.github.io/issues"
   },
-  "homepage": "https://github.com/mrunalibind/mrunalibind.github.io#readme",
+  "homepage": "https://github.com/tanuj8851/tanuj8851.github.io#readme",
   "dependencies": {
-    "github-calendar": "^2.3.2"
+    "github-calendar": "^2.3.2",
+    "github-calendar-graph": "^0.2.8"
   }
 }

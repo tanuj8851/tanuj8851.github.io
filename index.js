@@ -25,7 +25,8 @@ GitHubCalendar(".calendar", "tanuj8851", {
         return fetch(`https://your-proxy.com/github?user=${tanuj8851}`)
     }
 })
-// .then(r => r.text())
+.then(r => r.text())
+// .then((data)=>console.log(data))
 
 
 
