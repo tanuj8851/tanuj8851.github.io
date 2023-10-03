@@ -21,7 +21,7 @@ GitHubCalendar(".calendar", "tanuj8851", { responsive: true });
 
 // Use a proxy
 GitHubCalendar(".calendar", "tanuj8851", {
-    proxy(mrunalibind) {
+    proxy(tanuj8851) {
         return fetch(`https://your-proxy.com/github?user=${tanuj8851}`)
     }
 })
