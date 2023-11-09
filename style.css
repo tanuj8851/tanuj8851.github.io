@@ -164,6 +164,7 @@ span {
 
 .home-image img {
     width: 350px;
+    border-radius: 50%;
     /* border-radius: 30%; */
 }
 
